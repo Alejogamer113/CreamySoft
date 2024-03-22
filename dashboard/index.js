@@ -28,6 +28,14 @@ app.get('/categorias', (req, res) => {
   app.get('/insumos', (req, res) => {
     res.render(__dirname+'/views/insumos.hbs')
   })
+
+  app.get('/pedidos', (req, res) => {
+    res.render(__dirname+'/views/pedidos.hbs')
+  })
+
+  app.get('/ventas', (req, res) => {
+    res.render(__dirname+'/views/ventas.hbs')
+  })
 app.listen(port, () => {
   console.log(`Ejecucion en el puerto http://localhost:${port}`)
 })

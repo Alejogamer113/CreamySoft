@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const hbs = require('hbs');
-const port = 3000
+const port = 3300
 
 
 app.set('view engine', 'hbs');
